@@ -1,0 +1,6 @@
+conda remove -n myenv --all
+conda create -n myenv python=3.12
+conda activate myenv
+
+conda install numpy pandas matplotlib
+conda install jupyter
